@@ -1,7 +1,7 @@
 StikDebug requires a specialized "pairing file" to communicate with your device "remotely". This pairing file is device-specific and required to use StikDebug; otherwise, StikDebug won't work. 
 
 > [!WARNING]
-> Caution: Because of iOS/iPadOS limitations, if you reset or change the passcode on your Apple Device, the pairing file will expire, and you will need to replace it.
+> Because of iOS/iPadOS limitations, if you reset or change the passcode on your Apple Device, the pairing file will expire, and you will need to replace it.
 
 # Method 1: On-device
 This method uses StikDebug's built-in pairing menu and can only pair devices on iOS/iPadOS 27+ or tvOS 14+ (tvOS pairing does not work in LiveContainer yet).
