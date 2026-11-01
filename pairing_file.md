@@ -8,7 +8,7 @@ This method uses StikDebug's built-in pairing menu and can only pair devices on 
 In StikDebug, navigate to Settings → Pair a Device → Pair iPhone or iPad. Follow the in-app instructions to pair.
 
 # Method 2: Computer
-This method utilizes iloader running on a computer to generate and place the pairing file. Requires a computer and USB cable.
+This method utilizes [iloader](https://iloader.app) running on a computer to generate and place the pairing file. Requires a computer and USB cable.
 
 ## Prerequisites
 ### On your Mac
@@ -16,14 +16,14 @@ This method utilizes iloader running on a computer to generate and place the pai
 
 ### On your Windows PC
 1. Download and install [iTunes](https://apple.co/ms).
-2. Download the iloader installer ([exe](https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.exe) or [msi](https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.msi)).
+2. Download the iloader installer ([exe](https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.exe) or [msi](https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.msi) [recommended]).
 3. Run the installer.
 
 ### On your Linux machine
 1. Download and install `usbmuxd` (may be preinstalled for your distro, otherwise install with your package manager).
-2. Download and install iloader for your distro ([Debian/Ubuntu](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.deb), [Fedora/openSUSE](https://github.com/nab138/iloader/releases/download/v0.1.3/iloader-linux-x86_64.rpm), [other](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.AppImage)).
+2. Download and install iloader for your distro ([Debian/Ubuntu](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.deb), [Fedora/openSUSE](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-x86_64.rpm), [other](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.AppImage)).
 
 ## Generating/placing the pairing file
-1. For best results, connect your device to your computer via USB cable, but if your device appears wirelessly, that should work too.
+1. For best results, connect your device to your computer via a USB cable, but if your device appears wirelessly, that should work too.
 2. Click `Manage Pairing File`.
 3. To the right of "StikDebug" and any other apps you wish to pair, click `Place`. "Pairing file placed successfully!" should appear in green.
