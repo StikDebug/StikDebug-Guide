@@ -1,6 +1,14 @@
-iloader allows us to create a pairing file for programs like StikDebug to talk to your device remotely. This pairing file is device-specific, time-specific and required to use StikDebug, otherwise StikDebug will not function correctly. 
+StikDebug requires a specialized "pairing file" to communicate with your device "remotely". This pairing file is device-specific and required to use StikDebug; otherwise, StikDebug won't work. 
+
 > [!WARNING]
-> Caution, if you update or reset your iDevice, your pairing file will expire and you will need to replace it. This also occurs at random times. This is simply because of how Apple's software works, and there is nothing we can do at this point to fix it.
+> Caution: Because of iOS/iPadOS limitations, if you reset or change the passcode on your Apple Device, the pairing file will expire, and you will need to replace it.
+
+# Method 1: On-device
+This method uses StikDebug's built-in pairing menu and can only pair devices on iOS/iPadOS 27+ or tvOS 14+ (tvOS pairing does not work in LiveContainer yet).
+In StikDebug, navigate to Settings → Pair a Device → Pair iPhone or iPad. Follow the in-app instructions to pair.
+
+# Method 2: Computer
+This method utilizes iloader running on a computer to generate and place the pairing file. Requires a computer and USB cable.
 
 ## Prerequisites
 ### On your Mac
@@ -11,11 +19,11 @@ iloader allows us to create a pairing file for programs like StikDebug to talk t
 2. Download the iloader installer ([exe](https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.exe) or [msi](https://github.com/nab138/iloader/releases/latest/download/iloader-windows-x64.msi)).
 3. Run the installer.
 
-### On your Linux Machine
+### On your Linux machine
 1. Download and install `usbmuxd` (may be preinstalled for your distro, otherwise install with your package manager).
 2. Download and install iloader for your distro ([Debian/Ubuntu](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.deb), [Fedora/openSUSE](https://github.com/nab138/iloader/releases/download/v0.1.3/iloader-linux-x86_64.rpm), [other](https://github.com/nab138/iloader/releases/latest/download/iloader-linux-amd64.AppImage)).
 
-## Placing your pairing file
-1. For best results, connect your iDevice to your computer via USB cable, but if your device appears wirelessly that should work too.
+## Generating/placing the pairing file
+1. For best results, connect your device to your computer via USB cable, but if your device appears wirelessly, that should work too.
 2. Click `Manage Pairing File`.
-3. To the right of "StikDebug" and any other apps you wish, click `Place`. "Pairing file placed successfully!" should appear in green.
+3. To the right of "StikDebug" and any other apps you wish to pair, click `Place`. "Pairing file placed successfully!" should appear in green.
